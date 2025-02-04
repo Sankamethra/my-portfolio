@@ -139,6 +139,32 @@ function App() {
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
             <ProjectCard 
+              title="Netflix Clone"
+              description="A full-stack Netflix clone built with Next.js, featuring user authentication, multiple account profiles, and streaming capabilities."
+              tech={["Next.js 13+", "Tailwind CSS", "MongoDB", "NextAuth.js", "React Player", "Framer Motion"]}
+              features={[
+                "GitHub authentication using NextAuth.js",
+                "Multiple user profiles with PIN protection",
+                "Dynamic content browsing with categories",
+                "Integrated video player for content streaming",
+                "Persistent favorites list per profile"
+              ]}
+              link="https://github.com/Sankamethra/netflix-clone-old"
+            />
+            <ProjectCard 
+              title="Weather App"
+              description="A React-based weather application that provides real-time weather information using the OpenWeatherMap API."
+              tech={["React", "OpenWeatherMap API", "CSS", "JavaScript"]}
+              features={[
+                "City-based weather search",
+                "Real-time weather data display",
+                "Current temperature and conditions",
+                "Humidity and wind speed information",
+                "Responsive design for all devices"
+              ]}
+              link="https://github.com/Sankamethra/weather-app"
+            />
+            <ProjectCard 
               title="QuizMaster"
               description="A full-stack quiz application built with Go and React + TypeScript that allows users to create, share, and participate in quizzes in real-time."
               tech={["Go", "React", "TypeScript", "PostgreSQL", "Redis", "JWT", "Swagger"]}
