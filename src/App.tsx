@@ -79,7 +79,7 @@ function App() {
             </p>
             <div className="flex flex-wrap items-center gap-6 mb-8 animate-fade-in-delay-4">
               <a 
-                href="/path/to/your/resume.pdf" 
+                href="https://drive.google.com/file/d/1Qa69d6pGqs0R4enzFYH1mM59RO44mFua/view?usp=sharing"
                 target="_blank"
                 rel="noopener noreferrer" 
                 className="group relative px-8 py-3 rounded-md bg-gradient-to-r from-purple-500 to-cyan-500 text-white font-medium 
